@@ -3,8 +3,8 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import SearchIcon from './search.svg';
 import MovieCard from './MovieCard'
-
-const API_URL = 'http://www.omdbapi.com?apikey=ecbf78c4';
+// create your own api key at www.omdapi.com and the inpu it in the URL below
+const API_URL = 'http://www.omdbapi.com?apikey=[ Your own api key]';
 
 const App = () => {
 
